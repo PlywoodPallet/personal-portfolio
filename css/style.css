@@ -9,6 +9,7 @@ body {
 }
 
 .body-container {
+    grid-template-rows: auto auto auto auto auto;
     grid-template-areas: 
     header
     about-me
