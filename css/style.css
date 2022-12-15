@@ -51,8 +51,8 @@ header .big-name {
     bottom: 5vw;
 
     color: white;
-    font-size: 28vw;
-    line-height: 25vw;
+    font-size: 25vw;
+    line-height: 22vw;
     text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
 
     /* center text */
