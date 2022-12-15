@@ -79,7 +79,21 @@ article .about-me-container {
 }
 
 article .about-me {
-    color: var(--dark-gray)
+    color: var(--dark-gray);
+    text-align: justify;
+}
+
+.social-link-images {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.social-link-images img {
+    width: 2rem;
+    height: 2rem;
 }
 
 article .my-work-container {
