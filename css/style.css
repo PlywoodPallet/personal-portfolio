@@ -4,10 +4,21 @@
     box-sizing: border-box;
 
     --blue: #0891b2;
+    --dark-gray: #565656;
 }
 
 body {
 
+}
+
+h1 {
+    /* padding-top currently doing all the work separating page sections */
+    padding-top: 2rem; 
+    padding-bottom: 0.5rem;
+
+    /* make this mobile specific */
+    text-align: center;
+    color:black;
 }
 
 .body-container {
@@ -65,6 +76,10 @@ header .big-name {
 
 article .about-me-container {
     grid-area: about-me;
+}
+
+article .about-me {
+    color: var(--dark-gray)
 }
 
 article .my-work-container {
