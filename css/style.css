@@ -48,10 +48,12 @@ header .header-hero-image {
 
 header .big-name {
     position: absolute;
-    bottom: 10vw;
+    bottom: 5vw;
+
     color: white;
-    font-size: 30vw;
+    font-size: 28vw;
     line-height: 25vw;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
 
     /* center text */
     margin-left: auto;
