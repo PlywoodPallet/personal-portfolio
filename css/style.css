@@ -9,6 +9,20 @@ body {
 }
 
 .body-container {
-
+    grid-template-areas: 
+    header
+    article
+    footer;
 }
 
+header {
+    grid-area: header;
+}
+
+article {
+    grid-area: article;
+}
+
+footer {
+    grid-area: footer;
+}
