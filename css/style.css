@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    --blue: #0891b2;
 }
 
 body {
@@ -22,6 +24,7 @@ body {
 
 header {
     grid-area: header;
+    background-color: var(--blue);
 }
 
 header .profile-pic-name {
@@ -45,10 +48,10 @@ header .header-hero-image {
 
 header .big-name {
     position: absolute;
-    bottom: 3rem;
+    bottom: 10vw;
     color: white;
-    font-size: 8rem;
-    line-height: 6rem;
+    font-size: 30vw;
+    line-height: 25vw;
 
     /* center text */
     margin-left: auto;
