@@ -12,8 +12,6 @@ body {
 }
 
 h1 {
-    /* padding-top currently doing all the work separating page sections */
-    padding-top: 1rem; 
     padding-bottom: 0.5rem;
 
     /* make this mobile specific */
@@ -22,6 +20,7 @@ h1 {
 }
 
 .body-container {
+    display: grid;
     grid-template-rows: auto auto auto auto auto;
     grid-template-areas: 
     "header"
@@ -29,23 +28,19 @@ h1 {
     "my-work"
     "contact-me"
     "footer";
+
+    gap: 1rem;
 }
 
 
 /* add padding to all major sections, workaround because padding that respects background color cannot be added to .body-container */
-.profile-pic-name {
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-.about-me, .my-work, .contact-me {
-    padding-top: 1rem;
+.profile-pic-name, .about-me, .my-work, .contact-me  {
     padding-left: 1rem;
     padding-right: 1rem;
 }
 
 header {
-    grid-area: header;
+    grid-area: "header";
     background-color: var(--blue);
 }
 
@@ -86,7 +81,7 @@ header .big-name {
 }
 
 article .about-me-container {
-    grid-area: about-me;
+    grid-area: "about-me";
 }
 
 article .about-me {
@@ -108,7 +103,7 @@ article .about-me {
 }
 
 article .my-work-container {
-    grid-area: about-me;
+    grid-area: "my-work";
 }
 
 article .my-work {
@@ -153,7 +148,7 @@ article .project-card {
 }
 
 article .contact-me-container {
-    grid-area: contact-me;
+    grid-area: "contact-me";
 }
 
 article .contact-me {
@@ -166,5 +161,5 @@ article .contact-me h1 {
 }
 
 footer {
-    grid-area: footer;
+    grid-area: "footer";
 }
