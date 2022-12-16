@@ -31,6 +31,19 @@ h1 {
     "footer";
 }
 
+
+/* add padding to all major sections, workaround because padding that respects background color cannot be added to .body-container */
+.profile-pic-name {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.about-me, .my-work, .contact-me {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
 header {
     grid-area: header;
     background-color: var(--blue);
