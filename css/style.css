@@ -13,7 +13,7 @@ body {
 
 h1 {
     /* padding-top currently doing all the work separating page sections */
-    padding-top: 2rem; 
+    padding-top: 1rem; 
     padding-bottom: 0.5rem;
 
     /* make this mobile specific */
