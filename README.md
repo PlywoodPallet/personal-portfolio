@@ -2,6 +2,7 @@
 
 ## TODO
 - main grid is not rendering, maybe it is not necessary, or semantic tags cannot be styled at all
+- replace header background with a polygon instead of background-color
 
 ## Project Notes
 - Try designing the mobile site first
