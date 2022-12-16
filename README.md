@@ -1,6 +1,7 @@
 # personal-portfolio
 
 ## TODO
+- main grid is not rendering, maybe it is not necessary, or semantic tags cannot be styled at all
 
 ## Project Notes
 - Try designing the mobile site first
