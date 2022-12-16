@@ -104,7 +104,7 @@ article .about-me {
 
 .social-link-images img {
     width: 2rem;
-    height: 2rem;
+    height: auto;
 }
 
 article .my-work-container {
