@@ -144,6 +144,7 @@ article .project-card {
 
 .project-description {
     text-align: justify;
+    color: var(--dark-gray)
 
 }
 
