@@ -45,13 +45,14 @@ header {
 }
 
 header .profile-pic-name {
-    /* for center-fit */
+    /* for center-fit/image stretching */
     display: grid;
     height: 100%;
 
     position: relative;
 }
 
+/* stretch image */
 header .center-fit {
     max-width: 100%;
     max-height: 100vh;
