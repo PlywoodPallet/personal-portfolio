@@ -1,4 +1,5 @@
 # personal-portfolio
+Live code: https://plywoodpallet.github.io/personal-portfolio/
 
 ## TODO
 - main grid is not rendering, maybe it is not necessary, or semantic tags cannot be styled at all
