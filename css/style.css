@@ -45,14 +45,14 @@ header {
 }
 
 header .profile-pic-name {
-    /* for center-fit/image stretching */
+    /* for center-fit */
     display: grid;
     height: 100%;
 
     position: relative;
 }
 
-/* stretch image */
+/* additional code for centering */
 header .center-fit {
     max-width: 100%;
     max-height: 100vh;
@@ -60,8 +60,9 @@ header .center-fit {
 }
 
 header .header-hero-image {
-    width: 400px;
-    height: auto;
+    /* given image centering code, test if these selectors are superfluous */
+    /* width: 500px;
+    height: auto; */
 }
 
 header .big-name {
