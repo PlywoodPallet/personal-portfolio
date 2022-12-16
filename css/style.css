@@ -151,15 +151,16 @@ article .contact-me-container {
     grid-area: "contact-me";
 }
 
-article .contact-me {
+footer {
+    grid-area: "footer";
+}
+
+footer .contact-me {
     background-color: var(--blue);
     color: white;
 }
 
-article .contact-me h1 {
+footer .contact-me h1 {
     color: white;
 }
 
-footer {
-    grid-area: "footer";
-}
