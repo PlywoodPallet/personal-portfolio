@@ -31,7 +31,6 @@ h1 {
     "footer";
 }
 
-
 header {
     grid-area: header;
     background-color: var(--blue);
@@ -80,7 +79,6 @@ article .about-me-container {
 article .about-me {
     color: var(--dark-gray);
     text-align: justify;
-    padding: 1rem;
 }
 
 .social-link-images {
@@ -98,6 +96,10 @@ article .about-me {
 
 article .my-work-container {
     grid-area: about-me;
+}
+
+article .my-work {
+
 }
 
 article .contact-me-container {
