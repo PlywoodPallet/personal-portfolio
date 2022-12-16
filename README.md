@@ -2,6 +2,7 @@
 
 ## TODO
 - main grid is not rendering, maybe it is not necessary, or semantic tags cannot be styled at all
+- once main grid is working, replace padding with gap
 - replace header background with a polygon instead of background-color
 
 ## Project Notes
