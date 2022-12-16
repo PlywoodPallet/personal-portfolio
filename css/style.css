@@ -104,6 +104,15 @@ article .contact-me-container {
     grid-area: contact-me;
 }
 
+article .contact-me {
+    background-color: var(--blue);
+    color: white;
+}
+
+article .contact-me h1 {
+    color: white;
+}
+
 footer {
     grid-area: footer;
 }
