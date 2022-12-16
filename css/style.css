@@ -115,6 +115,43 @@ article .my-work {
 
 }
 
+article .my-work-card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+article .project-card {
+    height: 500px;
+    border: 1px solid black;
+}
+
+.project-screenshot {
+
+}
+
+.project-title-line {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.project-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+    
+}
+
+.project-links img {
+    width: 1.5rem;
+    height: auto; 
+}
+
+.project-description {
+    text-align: justify;
+
+}
+
 article .contact-me-container {
     grid-area: contact-me;
 }
