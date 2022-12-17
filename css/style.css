@@ -38,24 +38,26 @@ h1 {
     padding-right: 1rem;
 }
 
+/* for stretching images to biggest width possible  */
+.imgbox {
+    display: grid;
+    height: 100%;
+}
+
+.center-fit {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
+
 header {
     grid-area: "header";
     background-color: var(--blue);
 }
 
 header .profile-pic-name {
-    /* for center-fit */
-    display: grid;
-    height: 100%;
-
+    /* for text overlay */
     position: relative;
-}
-
-/* additional code for centering */
-header .center-fit {
-    max-width: 100%;
-    max-height: 100vh;
-    margin: auto;
 }
 
 header .header-hero-image {
@@ -149,7 +151,7 @@ article .project-card {
 }
 
 article .contact-me-container {
-    
+
 }
 
 footer {
