@@ -181,9 +181,9 @@ article .project-card {
     color: var(--dark-gray);
 }
 
-article .contact-me-container {
+/* article .contact-me-container {
 
-}
+} */
 
 footer {
     grid-area: "footer";
