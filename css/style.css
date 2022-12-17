@@ -8,15 +8,21 @@
 }
 
 body {
-
+    font-family: Lato, sans-serif;
 }
 
 h1 {
+    font-family: "PT Serif", serif;
+    
     padding-bottom: 0.5rem;
 
     /* make this mobile specific */
     text-align: center;
     color:black;
+}
+
+h3 {
+    font-family: "PT Serif", serif;
 }
 
 .body-container {
@@ -69,6 +75,8 @@ header {
 }
 
 header .profile-pic-name {
+    font-family: "PT Serif", serif;
+    
     /* for text overlay */
     position: relative;
 }
