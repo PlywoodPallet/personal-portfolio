@@ -204,15 +204,20 @@ footer .contact-me h1 {
     header .big-name {
         font-size: 5rem;
         line-height: 5rem;
+        bottom: 2rem;
     }
 
     header .hero-container {
         display: flex;
+        justify-content: center;
+        gap: 1rem;
         
     }
 
     header .hero-text {
         width: 500px;
+        display:flex;
+        align-items: center;
     }
 
 }
