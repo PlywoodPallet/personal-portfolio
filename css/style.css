@@ -98,6 +98,7 @@ header .big-name {
 header .hero-text {
     color: white;
     font-size: 2rem;
+    text-align: justify;
 }
 
 article .about-me-container {
@@ -211,7 +212,7 @@ footer .contact-me h1 {
     header .hero-container {
         display: flex;
         justify-content: center;
-        gap: 1rem;
+        gap: 2rem;
         
     }
 
