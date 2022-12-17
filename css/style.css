@@ -177,10 +177,10 @@ article .contact-me-container {
 
 footer {
     grid-area: "footer";
+    background-color: var(--blue);
 }
 
 footer .contact-me {
-    background-color: var(--blue);
     color: white;
 }
 
