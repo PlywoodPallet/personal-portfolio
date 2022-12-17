@@ -2,12 +2,10 @@
 Live code: https://plywoodpallet.github.io/personal-portfolio/
 
 ## TODO
-- replace header background with a polygon instead of background-color
 - Choose some custom fonts. A Serif font for titles and headings, a sans serif font for descriptions. Set font sizes so it looks good on mobile
 - Make another media query for desktop sites
 -- load larger images if necessary
 -- increase font sizes
--- tricky change in header/about-me layout
 
 - Does reducing code in each media query definition increase performance? Or does the existence of media queries reduce performance by a such a large fixed amount that performance gains by reduction (ex clamp, minmax, etc) are not work doing?
 
