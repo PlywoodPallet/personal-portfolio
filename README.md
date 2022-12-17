@@ -2,9 +2,12 @@
 Live code: https://plywoodpallet.github.io/personal-portfolio/
 
 ## TODO
-- main grid is not rendering, maybe it is not necessary, or semantic tags cannot be styled at all
-- once main grid is working, replace padding with gap
 - replace header background with a polygon instead of background-color
+- Choose some custom fonts. A Serif font for titles and headings, a sans serif font for descriptions. Set font sizes so it looks good on mobile
+- Make another media query for desktop sites
+-- load larger images if necessary
+-- increase font sizes
+-- tricky change in header/about-me layout
 
 ## Project Notes
 - Try designing the mobile site first
