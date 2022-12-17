@@ -137,7 +137,12 @@ article .project-card {
 }
 
 .project-screenshot {
+    /* for placeholder text only */
+    text-align: center;
+}
 
+.project-text {
+    padding: 1rem;
 }
 
 .project-title-line {
@@ -159,8 +164,7 @@ article .project-card {
 
 .project-description {
     text-align: justify;
-    color: var(--dark-gray)
-
+    color: var(--dark-gray);
 }
 
 article .contact-me-container {
