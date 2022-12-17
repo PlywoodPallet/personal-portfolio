@@ -9,6 +9,9 @@ Live code: https://plywoodpallet.github.io/personal-portfolio/
 -- increase font sizes
 -- tricky change in header/about-me layout
 
+
+- Does reducing code in each media query definition increase performance? Or does the existence of media queries reduce performance by a such a large fixed amount that performance gains by reduction (ex clamp, minmax, etc) are not work doing?
+
 ## Project Notes
 - Try designing the mobile site first
 - How to float text over image. Set container div to position: relative, set image selector to position: absolute https://www.geeksforgeeks.org/how-to-place-text-on-image-using-html-and-css/
