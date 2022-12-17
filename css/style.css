@@ -38,10 +38,23 @@ h1 {
     padding-right: 1rem;
 }
 
-/* for stretching images to biggest width possible  */
+/* for stretching images to biggest width possible 
 .imgbox {
     display: grid;
     height: 100%;
+}
+
+.center-fit {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+} */
+
+/* revised code for stretching and centering pictures */
+
+.imgbox {
+    display:flex;
+    justify-content: center;
 }
 
 .center-fit {
