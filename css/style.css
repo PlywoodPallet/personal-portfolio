@@ -66,20 +66,19 @@ header .header-hero-image {
 }
 
 header .big-name {
+    /* center text and text overlay */
     position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
     bottom: 5vw;
 
     color: white;
     font-size: 25vw;
     line-height: 22vw;
     text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
-
-    /* center text */
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    text-align: center;
 }
 
 article .about-me-container {
