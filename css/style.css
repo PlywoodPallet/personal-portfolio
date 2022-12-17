@@ -97,6 +97,7 @@ header .big-name {
 
 header .hero-text {
     color: white;
+    font-size: 2rem;
 }
 
 article .about-me-container {
@@ -136,7 +137,7 @@ article .my-work-card-container {
 }
 
 article .project-card {
-    height: 500px;
+    min-height: 500px;
     border: 1px solid black;
 }
 

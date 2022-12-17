@@ -9,8 +9,9 @@ Live code: https://plywoodpallet.github.io/personal-portfolio/
 -- increase font sizes
 -- tricky change in header/about-me layout
 
-
 - Does reducing code in each media query definition increase performance? Or does the existence of media queries reduce performance by a such a large fixed amount that performance gains by reduction (ex clamp, minmax, etc) are not work doing?
+
+- Once final hero text and image is added, motify the text size so that when the window gets smaller, text doesn't overflow while flex is still active
 
 ## Project Notes
 - Try designing the mobile site first
