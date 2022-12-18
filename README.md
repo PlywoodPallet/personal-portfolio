@@ -3,7 +3,7 @@ Live code: https://plywoodpallet.github.io/personal-portfolio/
 
 ## TODO
 
-
+- Mobile media query - hero image should load a smaller, cropped version
 
 - Does reducing code in each media query definition increase performance? Or does the existence of media queries reduce performance by a such a large fixed amount that performance gains by reduction (ex clamp, minmax, etc) are not work doing?
 
