@@ -4,6 +4,7 @@ Live code: https://plywoodpallet.github.io/personal-portfolio/
 ## TODO
 
 - Mobile media query - hero image should load a smaller, cropped version
+- Mobile media query - since mobile layout was developed first, properties in main CSS file are actually mobile definitions. Move these into mobile media query for clarity (Find the properties overwritten by desktop query)
 - use clamp() on hero text size, have a min fixed text size
 - use clamp() on left/right padding size?
 - When hero text is bigger than hero image, make the hero image aligned to bottom of section
