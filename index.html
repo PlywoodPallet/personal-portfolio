@@ -16,7 +16,13 @@
             <div class="hero-container">
                     <div class="hero-image">
                         <div class="imgbox">
-                            <img src="img/cat-500w.jpg" class="header-hero-image center-fit">
+                            <!-- <img src="img/cat-500w.jpg" class="header-hero-image center-fit"> -->
+
+                            <picture>
+                                <source media="(max-width:500px)" srcset="img/cat-closeup-500w.jpg" />
+                                <source media="(min-width:501px)" srcset="img/cat-500w.jpg" />
+                                <img src="img/cat-500w.jpg" />
+                            </picture>
                         </div>
                         <span class="big-name">Kevin Cheng</span>
                     </div>

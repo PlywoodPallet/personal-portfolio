@@ -228,6 +228,17 @@ footer .contact-me h1 {
 /* mobile */
 @media (max-width: 500px) {
 
+    /* hero-image becomes frameless while hero-text maintains its padding */
+    header .hero-container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    header .hero-text {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
     /* add padding to make it look better. Equivalent elements in desktop view are padding-less */
     header .hero-text {
         padding-top: 1rem;
