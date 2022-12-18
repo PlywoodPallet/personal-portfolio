@@ -228,6 +228,15 @@ footer .contact-me h1 {
 /* mobile */
 @media (max-width: 500px) {
 
+    /* elements in desktop are padding-less */
+    header .hero-text {
+        padding-top: 1rem;
+    }
+    
+    header .hero-container {
+        padding-bottom: 1rem;
+    }
+
 }
 
 /* desktop */
@@ -248,7 +257,6 @@ footer .contact-me h1 {
         display: flex;
         justify-content: center;
         gap: 2rem;
-        
     }
 
     header .hero-text {
