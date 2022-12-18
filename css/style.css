@@ -207,7 +207,7 @@ article .project-card {
 
 .project-description {
     text-align: justify;
-    color: var(--dark-gray);
+    /* color: var(--dark-gray); */
 }
 
 /* article .contact-me-container {
