@@ -20,3 +20,4 @@ Live code: https://plywoodpallet.github.io/personal-portfolio/
 - Resizing an image to always fit in browser window uses CSS grid https://stackoverflow.com/questions/6169666/how-to-resize-an-image-to-fit-in-the-browser-window
 - Responsive text using viewport units. Used to using vw/vh to set sizes of containers, didn't know it could be used for text https://www.w3schools.com/howto/howto_css_responsive_text.asp
 - for some reason the semantic tags (<article>) don't like being styled. I have to make a div within it in order to style content within
+- site responsive function can be as simple as turning flex or grid on and off (large screen: turn on flex to fill content horizontally. small screen: turn off flex and have natural block display take over, place elements vertically on new lines)
