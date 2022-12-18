@@ -82,17 +82,13 @@ header {
     background-color: var(--teal);
 }
 
-header .profile-pic-name {
-    font-family: "PT Serif", serif;
+header .hero-image {
+    /* Responsive. If hero-text is too long and overflowing, align image to bottom of the section */
+    display: flex;
+    align-items: flex-end;
     
     /* for text overlay */
     position: relative;
-}
-
-header .header-hero-image {
-    /* given image centering code, test if these selectors are superfluous */
-    /* width: 500px;
-    height: auto; */
 }
 
 header .big-name {
@@ -105,6 +101,7 @@ header .big-name {
     text-align: center;
     bottom: 5vw;
 
+    font-family: "PT Serif", serif;
     color: white;
     font-size: 25vw;
     line-height: 22vw;
