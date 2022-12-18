@@ -228,7 +228,7 @@ footer .contact-me h1 {
 /* mobile */
 @media (max-width: 500px) {
 
-    /* elements in desktop are padding-less */
+    /* add padding to make it look better. Equivalent elements in desktop view are padding-less */
     header .hero-text {
         padding-top: 1rem;
     }
