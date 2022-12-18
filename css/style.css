@@ -83,9 +83,11 @@ header {
 }
 
 header .hero-image {
-    /* Responsive. If hero-text is too long and overflowing, align image to bottom of the section */
-    display: flex;
-    align-items: flex-end;
+    /* DISABLED: Was creating a small frame below hero image in desktop view
+    
+    Responsive. If hero-text is too long and overflowing, align image to bottom of the section */
+    /* display: flex;
+    align-items: flex-end; */
     
     /* for text overlay */
     position: relative;
@@ -99,7 +101,7 @@ header .big-name {
     left: 0;
     right: 0;
     text-align: center;
-    bottom: 5vw;
+    bottom: 10vw;
 
     font-family: "PT Serif", serif;
     color: white;
@@ -268,6 +270,8 @@ footer .contact-me h1 {
         display: flex;
         justify-content: center;
         gap: 2rem;
+
+        height: 750px;
     }
 
     header .hero-text {
