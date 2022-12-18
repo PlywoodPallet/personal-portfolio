@@ -155,7 +155,28 @@ article .my-work-card-container {
 
 article .project-card {
     min-height: 500px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+}
+
+/* backgrounds for project cards */
+.bg-purple {
+    background-color: var(--purple);
+}
+
+.bg-orange {
+    background-color: var(--orange);
+}
+
+.bg-green {
+    background-color: var(--green);
+}
+
+.bg-pink {
+    background-color: var(--pink);
+}
+
+.bg-blue {
+    background-color: var(--blue);
 }
 
 .project-screenshot {
