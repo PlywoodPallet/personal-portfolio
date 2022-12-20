@@ -220,6 +220,9 @@ article .project-card {
 .project-links img {
     width: 1.5rem;
     height: auto; 
+
+    /* change svgs to white (default black) */
+    filter: invert(93%) sepia(94%) saturate(0%) hue-rotate(187deg) brightness(106%) contrast(105%);
 }
 
 .project-description {
