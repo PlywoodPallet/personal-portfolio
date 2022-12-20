@@ -1,17 +1,15 @@
 # personal-portfolio
 Live code: https://plywoodpallet.github.io/personal-portfolio/
 
+## Features
+- Fully responsive site for mobile, tablet and desktop viewing
+- Art direction: Hero image becomes cropped on mobile sites
+
 ## TODO
 
 - Mobile media query - since mobile layout was developed first, properties in main CSS file are actually mobile definitions. Move these into mobile media query for clarity (Find the properties overwritten by desktop query)
 - use clamp() on hero text size, have a min fixed text size
-- use clamp() on left/right padding size?
-- When hero text is bigger than hero image, make the hero image aligned to bottom of section
-- Is an intermediate tablet query OR extend mobile query. Once hero text is added, find at which point the hero text is taller than hero image. Great a breakpoint here 
-
-- Does reducing code in each media query definition increase performance? Or does the existence of media queries reduce performance by a such a large fixed amount that performance gains by reduction (ex clamp, minmax, etc) are not work doing?
-
-- Once final hero text and image is added, motify the text size so that when the window gets smaller, text doesn't overflow while flex is still active
+- use clamp() on left/right padding size? 
 
 ## Project Notes
 - Try designing the mobile site first
@@ -22,3 +20,5 @@ Live code: https://plywoodpallet.github.io/personal-portfolio/
 - for some reason the semantic tags (<article>) don't like being styled. I have to make a div within it in order to style content within
 - site responsive function can be as simple as turning flex or grid on and off (large screen: turn on flex to fill content horizontally. small screen: turn off flex and have natural block display take over, place elements vertically on new lines)
 - First usage of art direction. Hero image becomes a smaller, cropped version for mobile
+- Page responsive without tablet breakpoint 
+- Does reducing code in each media query definition increase performance? Or does the existence of media queries reduce performance by a such a large fixed amount that performance gains by reduction (ex clamp, minmax, etc) are not work doing?
